@@ -3,6 +3,23 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Moodio</RootNamespace>
+    <AssemblyName>Moodio.Common</AssemblyName>
+    <PackageId>Moodio.Common</PackageId>
+    <Authors>Mahmoud Swehli</Authors>
+    <Company>Moodio Ltd</Company>
+    <Product>Moodio.Common</Product>
+    <Description>Moodio common classes</Description>
+    <Copyright>Moodio Ltd</Copyright>
+    <PackageProjectUrl>https://www.moodio.co.uk</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/moodio/moodio</RepositoryUrl>
+    <Version>1.0.0</Version>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 </Project>
