@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <PackageId>Moodio.AspNetCore</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Authors>Mahmoud Swehli</Authors>
     <Company>Moodio Ltd</Company>
     <Description>Moodio common classes and utilities for Asp.Net Core</Description>
@@ -29,5 +29,4 @@
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
-
 </Project>
