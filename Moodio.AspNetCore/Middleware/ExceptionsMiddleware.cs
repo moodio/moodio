@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Builder;
+using Moodio.Exceptions;
 
 namespace Moodio.AspNetCore.Middleware
 {
@@ -21,6 +22,14 @@ namespace Moodio.AspNetCore.Middleware
             try
             {
                 await _next(context);
+            }
+            catch (ConflictException ex)
+            {
+                await SetContextError(context, 409, ex.Message);
+            }
+            catch (ForbiddenUserActionException ex)
+            {
+                await SetContextError(context, 403, ex.Message);
             }
             catch (RecordNotFoundException ex)
             {
