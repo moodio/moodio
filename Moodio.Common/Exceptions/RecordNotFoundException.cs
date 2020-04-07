@@ -4,8 +4,8 @@ namespace Moodio
 {
     public class RecordNotFoundException : Exception
     {
-        RecordNotFoundException() { }
+        public RecordNotFoundException() { }
 
-        RecordNotFoundException(string message) : base(message) { }
+        public RecordNotFoundException(string message) : base(message) { }
     }
 }
