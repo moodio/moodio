@@ -5,9 +5,13 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moodio.Common", "Moodio.Common\Moodio.Common.csproj", "{29967E32-F68D-40D0-B114-B1579C6A26D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moodio.Data", "Moodio.Data\Moodio.Data.csproj", "{E586EB1E-391A-4422-B509-D9E5D5F9CA45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moodio.Data", "Moodio.Data\Moodio.Data.csproj", "{E586EB1E-391A-4422-B509-D9E5D5F9CA45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moodio.AspNetCore", "Moodio.AspNetCore\Moodio.AspNetCore.csproj", "{FD638553-7059-4D44-80AC-7BFB21D47673}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moodio.AspNetCore", "Moodio.AspNetCore\Moodio.AspNetCore.csproj", "{FD638553-7059-4D44-80AC-7BFB21D47673}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{12613F1A-D725-45EE-89F7-66D0530A390D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moodio.Common.Tests", "Tests\Moodio.Common.Tests\Moodio.Common.Tests.csproj", "{F698F9B5-BC1A-4E51-ABDC-E5C0941C57FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +31,16 @@ Global
 		{FD638553-7059-4D44-80AC-7BFB21D47673}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD638553-7059-4D44-80AC-7BFB21D47673}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD638553-7059-4D44-80AC-7BFB21D47673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F698F9B5-BC1A-4E51-ABDC-E5C0941C57FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F698F9B5-BC1A-4E51-ABDC-E5C0941C57FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F698F9B5-BC1A-4E51-ABDC-E5C0941C57FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F698F9B5-BC1A-4E51-ABDC-E5C0941C57FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F698F9B5-BC1A-4E51-ABDC-E5C0941C57FF} = {12613F1A-D725-45EE-89F7-66D0530A390D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E81E87CC-3242-42FB-B19C-829177E7BBAB}
