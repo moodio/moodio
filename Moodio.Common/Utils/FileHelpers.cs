@@ -97,7 +97,7 @@ namespace Moodio.Utils
                 return false;
             }
 
-            using (var reader = new BinaryReader(file))
+            using (var reader = new BinaryReader(file, encoding: Encoding.ASCII, leaveOpen: true))
             {
                 var sigs = FileSignatures[extension];
                 var headerBytes = reader.ReadBytes(sigs.Max(m => m.Length));
