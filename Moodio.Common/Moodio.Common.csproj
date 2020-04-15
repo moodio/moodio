@@ -12,7 +12,7 @@
     <Copyright>Moodio Ltd</Copyright>
     <PackageProjectUrl>https://www.moodio.co.uk</PackageProjectUrl>
     <RepositoryUrl>https://github.com/moodio/moodio</RepositoryUrl>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 </Project>
